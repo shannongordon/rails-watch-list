@@ -1,0 +1,7 @@
+<h1>Bookmarks</h1>
+<%= simple_form_for @bookmarks do |f| %>
+  <%= f.input :movi %>
+  <%= f.association :company %>
+  <%= f.association :roles %>
+  <%= f.button :submit %>
+<% end %>
